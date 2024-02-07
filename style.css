@@ -1,0 +1,116 @@
+p {
+  color: rgb(70, 194, 208);
+}
+
+.slide-size {
+  width: 60%;
+}
+
+.image-de-carte {
+  display: block;
+  border-radius: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.titre-de-carte {
+  text-align: center;
+  margin: 10px;
+}
+.texte-de-carte {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carte {
+  box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #013399;
+  border-top: 5px solid rgb(0, 255, 217);
+}
+
+.carteContainer {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.barre-den-haut {
+  background-color: #013399 !important;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #FFFFFF !important;
+}
+
+html {
+
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #21cfaf !important;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: #FFFFFF !important;
+  gap: 20px;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  opacity: 0,5;
+}
+.body {
+  background-image: url(nyan-cat-gif-1.gif);
+  background-color: #0E3366;
+  background-size: cover;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.afficher-plus {
+  text-align: center;
+}
+.carte-de-la-page-rdpàa {
+  box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #77bb1f;
+  border-top: 5px solid rgb(0, 255, 217);
+  margin: auto;
+}
+.bouton-afficher-plus {
+  text-decoration: none !important;
+  color: rgb(105, 238, 151) !important;
+  width: 400px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.carte-footer {
+  box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color: #013399;
+  width: 150px;
+}
+.page1 {
+  background-image: url(nyan-cat-gif-1.gif);
+}
